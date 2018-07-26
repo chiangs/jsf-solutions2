@@ -600,7 +600,10 @@ removeElement.classList.remove('remove')
 // 3
 const containsElement = document.querySelector('.contains')
 const divs = containsElement.querySelectorAll('div')
-
+/* divs is now an array of child elements of the contains div, 
+so for each of of the child elements, I want to check their classList 
+and add or remove the blue class
+*/
 divs.forEach(element => {
     if (element.classList.contains('blue')) {
         element.classList.remove('blue')
