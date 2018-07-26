@@ -27,7 +27,7 @@ _Comments are really important because this is supplementing and giving your ans
 |----------------------------------|----------|
 | [Module 2](Module2/solutions.md) | Complete | 
 | [Module 3](Module3/solutions.md) | Complete |
-| [Module 4](Module4/solutions.md) | Working  |
+| [Module 4](Module4/solutions.md) | Complete |
 
 ## Contributors
 
