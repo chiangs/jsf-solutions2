@@ -33,5 +33,5 @@ _Comments are really important because this is supplementing and giving your ans
 
 | Module / Lesson(s)  | Contributor(s)                                                                   |
 | ------------------- | -------------------------------------------------------------------------------- |
-| Module 2, 3    | [@chiangs](https://github.com/chiangs)                                           |
+| Module 2, 3, 4      | [@chiangs](https://github.com/chiangs)                                           |
 
