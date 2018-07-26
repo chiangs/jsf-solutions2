@@ -9,7 +9,7 @@
     - [09 - Arrow Functions](#09---arrow-functions)
     - [10 - Intro to Objects](#10---intro-to-objects)
     - [11 - If/else statements](#11---ifelse-statements)
-    - [11 - The `!` (NOT) operator](#11---the--not-operator)
+    - [12 - The `!` (NOT) operator](#12---the--not-operator)
     - [15 - Selecting an Element](#15---selecting-an-element)
     - [16 - Changing Classes](#16---changing-classes)
 
@@ -500,7 +500,7 @@ if (object.property >= 0)
 
 [Back to top](#Module-2-Solutions)
 
-## 11 - The `!` (NOT) operator
+## 12 - The `!` (NOT) operator
 
 ***What values would you get for each of these expressions?***
 
