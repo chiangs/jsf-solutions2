@@ -25,10 +25,18 @@ _Comments are really important because this is supplementing and giving your ans
 
 [Module 2](Module2/solutions.md) 
 - [x] Lesson 6 - complete
+- [x] Lesson 7 - complete
+- [x] Lesson 8 - complete
+- [x] Lesson 9 - complete
+- [x] Lesson 10 - complete
+- [x] Lesson 11 - complete
+- [x] Lesson 12 - complete
+- [x] Lesson 15 - complete
+- [x] Lesson 16 - complete
 
 ## Contributors
 
 | Module / Lesson(s)  | Contributor(s)                                                                   |
 | ------------------- | -------------------------------------------------------------------------------- |
-| Lesson 2.6 - 2.9    | [@chiangs](https://github.com/chiangs)                                           |
+| Lesson 6 - 12    | [@chiangs](https://github.com/chiangs)                                           |
 
