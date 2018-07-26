@@ -23,20 +23,15 @@ _Comments are really important because this is supplementing and giving your ans
 
 ## Contents and navigation
 
-[Module 2](Module2/solutions.md) 
-- [x] Lesson 6 - complete
-- [x] Lesson 7 - complete
-- [x] Lesson 8 - complete
-- [x] Lesson 9 - complete
-- [x] Lesson 10 - complete
-- [x] Lesson 11 - complete
-- [x] Lesson 12 - complete
-- [x] Lesson 15 - complete
-- [x] Lesson 16 - complete
+| Module                           | Status   |
+|----------------------------------|----------|
+| [Module 2](Module2/solutions.md) | Complete | 
+| [Module 3](Module3/solutions.md) | Complete |
+| [Module 4](Module4/solutions.md) | Working  |
 
 ## Contributors
 
 | Module / Lesson(s)  | Contributor(s)                                                                   |
 | ------------------- | -------------------------------------------------------------------------------- |
-| Lesson 6 - 12    | [@chiangs](https://github.com/chiangs)                                           |
+| Module 2, 3    | [@chiangs](https://github.com/chiangs)                                           |
 

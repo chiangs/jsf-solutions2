@@ -12,8 +12,12 @@
     - [12 - The `!` (NOT) operator](#12---the--not-operator)
     - [15 - Selecting an Element](#15---selecting-an-element)
     - [16 - Changing Classes](#16---changing-classes)
+    - [17 - Listening to events](#17---listening-to-events)
+    - [18 - Callbacks](#18---callbacks)
 
 <!-- /TOC -->
+
+[On to Module 3](../Module3/solutions.md)
 
 ## 06 - strings, numbers, booleans
 
@@ -600,7 +604,10 @@ removeElement.classList.remove('remove')
 // 3
 const containsElement = document.querySelector('.contains')
 const divs = containsElement.querySelectorAll('div')
-
+/* divs is now an array of child elements of the contains div, 
+so for each of of the child elements, I want to check their classList 
+and add or remove the blue class
+*/
 divs.forEach(element => {
     if (element.classList.contains('blue')) {
         element.classList.remove('blue')
@@ -615,3 +622,54 @@ toggleElement.classList.toggle('red')
 ```
 
 [Back to top](#Module-2-Solutions)
+
+## 17 - Listening to events
+
+***Practice adding event listeners and getting them to do things. You'll use them a lot when you write components. Do the following:***
+
+1. Write an click event listener. Log something into the console so you know the listener works.
+
+```html
+<button type="button" class="button">Button</button>
+```
+
+```js
+/* basic solution
+1. Select the button in the DOM
+2. Attach the click listener
+*/
+const button = document.querySelector('.button')
+button.addEventListener('click', function(e) {
+    console.log('button clicked')
+})
+
+/* alternate solution
+1. Define the click message
+2. Selecte the button in the DOM
+3. Attach the listener using arrow function
+*/
+const clickMsg = 'button clicked'
+const button = document.querySelector('.button')
+
+button.addEventListener('click', () => console.log(clickMsg))
+```
+
+2. Check the existence of the listener with Firefox's devtools.
+
+3. Check the existence of the listener with Chrome Devtools.
+
+4. Add a class to the component when it is clicked. Remove a class from the component when it is clicked again.
+
+```js
+button.addEventListener('click', () => button.classList.toggle('myClass'))
+```
+
+[Back to top](#Module-2-Solutions)
+
+## 18 - Callbacks
+
+***No exercise required for this lesson. There's only one thing to know: a callback is a function that is passed into another function as an argument to be executed later.***
+
+[Back to top](#Module-2-Solutions)
+
+[On to Module 3](../Module3/solutions.md)
