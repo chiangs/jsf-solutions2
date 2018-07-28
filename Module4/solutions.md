@@ -319,6 +319,8 @@ characters.forEach(character => character.classList.add('star-wars'))
 
 ## 06 - Building an accordion
 
-
+As with the modal, I've already completed the animated one so that will be included later. Please feel free to PR your version of the basic accordion for this lesson.
 
 [Back to Top](#Module-4-Solutions)
+
+([On to Module 5](../Module5/solutions.md))
