@@ -28,10 +28,12 @@ _Comments are really important because this is supplementing and giving your ans
 | [Module 2](Module2/solutions.md) | Complete | 
 | [Module 3](Module3/solutions.md) | Complete |
 | [Module 4](Module4/solutions.md) | Complete |
+| [Module 5](Module5/solutions.md) | Complete |
+| [Module 6](Module6/solutions.md) | Complete |
 
 ## Contributors
 
 | Module / Lesson(s)  | Contributor(s)                                                                   |
 | ------------------- | -------------------------------------------------------------------------------- |
-| Module 2, 3, 4      | [@chiangs](https://github.com/chiangs)                                           |
+| Module 2, 3, 4, 5, 6      | [@chiangs](https://github.com/chiangs)                                           |
 

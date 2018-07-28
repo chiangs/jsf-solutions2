@@ -7,6 +7,10 @@
     - [03 - Getting CSS with JS](#03---getting-css-with-js)
     - [04 - Changing Attributes](#04---changing-attributes)
     - [05 - Finding an element's size and position](#05---finding-an-elements-size-and-position)
+    - [06 - DOM Traversals](#06---dom-traversals)
+    - [07 - Building Tabbed Component](#07---building-tabbed-component)
+    - [08 - Building Carousel Component](#08---building-carousel-component)
+    - [09 - Building Carousel component pt2](#09---building-carousel-component-pt2)
 
 <!-- /TOC -->
 
@@ -129,6 +133,118 @@ element.removeAttribute('checked')
 [Back to top](#Module-5-Solutions)
 
 ## 05 - Finding an element's size and position
+
+***Go to any web page, open up your console and get use getBoundingClientRect to get at the DomRect of at least one element. You should see eight values.***
+
+## 06 - DOM Traversals
+
+***Practice traversing the DOM with the methods taught in this lesson. With the HTML given below, do these tasks:***
+
+```html
+<div class="characters">
+  <ul class="hobbits">
+    <li>Frodo Baggins</li>
+    <li>Samwise "Sam" Gamgee</li>
+    <li>Meriadoc "Merry" Brandybuck</li>
+    <li>Peregrin "Pippin" Took</li>
+    <li>Bilbo Baggins</li>
+  </ul>
+  <ul class="humans">
+    <li>Gandalf</li>
+    <li>Saruman</li>
+    <li>Aragorn</li>
+    <li>Boromir</li>
+    <li>Faramir</li>
+  </ul>
+  <ul class="elves">
+    <li>Legolas</li>
+    <li>Glorfindel</li>
+    <li>Elrond</li>
+    <li>Arwen Evenstar</li>
+  </ul>
+  <ul class="enemies">
+    <li>Sauron</li>
+    <li>Nazgûl</li>
+  </ul>
+</div>
+```
+
+1. Select `.characters` with `document.querySelector`
+   
+```js
+const charactersList = document.querySelector('.characters')
+```
+
+2. Select `.humans` from `.characters`
+
+```js
+const humansList = charactersList.querySelector('.humans')
+```
+
+3. Select all humans with `querySelectorAll`, starting from `.humans`
+
+```js
+const humans = humansList.querySelectorAll('li')
+```
+
+4. Select all hobbits with `children`
+
+```js
+const hobbitsList = charactersList.querySelector('.hobbits')
+const hobbitses = hobbitsList.children
+```
+
+5. Select the Merry (the hobbit)
+
+```js
+const merry = hobbitses[2]
+```
+
+6. Select `.enemies` from Sauron
+
+```js
+const individuals = charactersList.querySelectorAll('li')
+const sauron = individuals[14]
+const enemiesList = sauron.parentElement
+```
+
+7. Select the `.characters` div from Nazgûl
+
+```js
+const individuals = charactersList.querySelectorAll('li')
+const nazgul = individuals[15]
+const enemiesList = nazgul.parentElement
+const charactersList = enemiesList.parentElement
+```
+
+8. Select Elrond from Glorfindel
+
+```js
+const charactersList = document.querySelector('.characters')
+const elvesList = charactersList.querySelector('.elves')
+const elves = elvesList.querySelectorAll('li')
+const glorfindel = elves[1]
+const elrond = glorfindel.nextElementSibling
+```
+
+9.  Select Legolas from Glorfindel
+
+```js
+const legolas = glorfindel.previousElementSibling
+```
+
+10. Select Arwen from Glorfindel
+
+```js
+const list = glorfindel.parentElement
+const arwen = list[list.length -1]
+```
+
+## 07 - Building Tabbed Component
+
+## 08 - Building Carousel Component
+
+## 09 - Building Carousel component pt2
 
 [Back to top](#Module-5-Solutions)
 
