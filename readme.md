@@ -30,13 +30,14 @@ _Comments are really important because this is supplementing and giving your ans
 | [Module 4](Module4/solutions.md) | Complete |
 | [Module 5](Module5/solutions.md) | Complete |
 | [Module 6](Module6/solutions.md) | Complete |
-| [Module 6](Module7/solutions.md) | Complete |
-| [Module 6](Module8/solutions.md) | Complete |
-| [Module 6](Module9/solutions.md) | Pending |
+| [Module 7](Module7/solutions.md) | Complete |
+| [Module 8](Module8/solutions.md) | Complete |
+| [Module 9](Module9/solutions.md) | Complete |
+| [Module 10](Module10/solutions.md) | Pending |
 
 ## Contributors
 
 | Module / Lesson(s)  | Contributor(s)                                                                   |
 | ------------------- | -------------------------------------------------------------------------------- |
-| Module 2, 3, 4, 5, 6, 7, 8      | [@chiangs](https://github.com/chiangs)      |
+| Module 2, 3, 4, 5, 6, 7, 8, 9, 10      | [@chiangs](https://github.com/chiangs)      |
 
