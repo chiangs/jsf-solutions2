@@ -33,7 +33,8 @@ _Comments are really important because this is supplementing and giving your ans
 | [Module 7](Module7/solutions.md) | Complete |
 | [Module 8](Module8/solutions.md) | Complete |
 | [Module 9](Module9/solutions.md) | Complete |
-| [Module 10](Module10/solutions.md) | Pending |
+| [Module 10](Module10/solutions.md) | Complete |
+| [Module 11](Module11/solutions.md) | Pending |
 
 ## Contributors
 
