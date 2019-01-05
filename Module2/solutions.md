@@ -1,21 +1,6 @@
 # Module 2 Solutions
 
-<!-- TOC -->
-
-- [Module 2 Solutions](#module-2-solutions)
-    - [06 - strings, numbers, booleans](#06---strings-numbers-booleans)
-    - [07 - Declaring Variables](#07---declaring-variables)
-    - [08 - Functions](#08---functions)
-    - [09 - Arrow Functions](#09---arrow-functions)
-    - [10 - Intro to Objects](#10---intro-to-objects)
-    - [11 - If/else statements](#11---ifelse-statements)
-    - [12 - The `!` (NOT) operator](#12---the--not-operator)
-    - [15 - Selecting an Element](#15---selecting-an-element)
-    - [16 - Changing Classes](#16---changing-classes)
-    - [17 - Listening to events](#17---listening-to-events)
-    - [18 - Callbacks](#18---callbacks)
-
-<!-- /TOC -->
+<!-- TOC -->autoauto- [Module 2 Solutions](#module-2-solutions)auto    - [06 - strings, numbers, booleans](#06---strings-numbers-booleans)auto    - [07 - Declaring Variables](#07---declaring-variables)auto    - [08 - Functions](#08---functions)auto    - [09 - Arrow Functions](#09---arrow-functions)auto    - [10 - Intro to Objects](#10---intro-to-objects)auto    - [11 - If/else statements](#11---ifelse-statements)auto    - [12 - The `!` (NOT) operator](#12---the--not-operator)auto    - [15 - Selecting an Element](#15---selecting-an-element)auto    - [16 - Changing Classes](#16---changing-classes)auto    - [17 - Listening to events](#17---listening-to-events)auto    - [18 - Callbacks](#18---callbacks)autoauto<!-- /TOC -->
 
 [On to Module 3](../Module3/solutions.md)
 
@@ -188,9 +173,9 @@ function multiply(num1, num2) {
 1. Make a function named ten that takes in zero arguments and return the value 10.Try using both () and _ syntax.
 
 ```js
-const ten = () => return 10
+const ten = () => 10
 
-const ten = _ => return 10
+const ten = _ => 10
 
 // to run remember the '()'
 ten
